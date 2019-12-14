@@ -1,0 +1,25 @@
+Generics
+
+Topics:
+  Creating a generic function
+  Creating a generic type
+  in type param
+  out type param
+  in/out type param
+  Upper bounds
+    What are the benefits of doing upper bounds over just T or just Shape?
+  
+ 
+Flow:
+  getFromMap(id:Int):T
+  Pair<A,B>
+  Out
+  In
+  Both
+  Upper bounds: ShapePair (with Circle and Square)
+  Show Http.paramEnum
+
+ 
+
+Instructor Notes:
+  

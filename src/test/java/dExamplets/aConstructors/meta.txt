@@ -1,0 +1,17 @@
+Constructors
+  
+  primary constructors
+    impicit constructor keyword
+    explicit constructor keyword
+    private keyword
+  init
+  secondary constructors
+    calling primary constructor
+  constuctor arg vs props (in primary constructor)
+  3 ways to init a prop
+    val in primary constructor
+    in declaration area
+    in init
+  using named args
+  
+

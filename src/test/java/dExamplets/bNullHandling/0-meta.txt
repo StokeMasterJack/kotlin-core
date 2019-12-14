@@ -1,0 +1,35 @@
+Null handling
+
+Topics:
+  Purpose
+  Nullable types:     ?
+  Safe access op:     ?.
+  Elvis op:           ?:
+  Safe access + elvis
+  Not-null assert op: !!
+  Java interop
+  Eliminating NPEs 100%
+ 
+Flow:
+  Purpose (1)
+  Nullable types                  ?
+  s.length or null                ?.      
+  s or "No Value Provided"        ?:
+  s.length or zero                ?. and ?:
+  s or npe                        !!
+  Java interop
+  Eliminating NPEs 100% (3) 
+
+Instructor Notes:
+  1. Purpose:
+        Safer code (prevent NPEs)
+        More self-documenting code
+        More concise syntax for common null handling scenarios
+  2. Remember to use the Control-Shift-P to show types
+  3. Eliminating NPEs 100%
+        No java/js interop
+        Never use !!
+        Same for libs that you use
+
+  
+

@@ -1,0 +1,17 @@
+Data classes
+
+Topics:
+  toString 
+  hashCode
+  equals
+  copy method
+    all
+    some
+  destructuring
+    component1
+    component2
+
+    val (x,y) = pair
+
+  
+

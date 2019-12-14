@@ -1,0 +1,14 @@
+Java Interop
+
+Topics:
+  JFrame.isVisible
+  @JvmStatic
+  @JvmOverloads (default params)
+  setters and getter
+ 
+Flow:
+  
+Instructor Notes:
+  
+  
+

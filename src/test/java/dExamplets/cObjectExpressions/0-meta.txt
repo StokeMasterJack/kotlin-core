@@ -1,0 +1,14 @@
+Object expressions
+
+  object expression
+  object expression that implements an interface (FocusLost)
+  implement single method java interface with lambda (Runnable)
+  singletons
+    benefits over statics
+      extend/implement/inherit
+      pass around references
+  companions
+  
+
+  
+

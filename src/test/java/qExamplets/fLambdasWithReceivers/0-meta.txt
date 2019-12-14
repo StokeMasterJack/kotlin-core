@@ -1,0 +1,17 @@
+Lambda with Receiver
+
+Topics:
+  mechanics
+  use-cases
+    DSLs
+    standard functions
+ 
+ 
+Flow:
+
+ 
+Instructor Notes:
+  
+
+  
+

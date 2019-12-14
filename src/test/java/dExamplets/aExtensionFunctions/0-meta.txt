@@ -1,0 +1,12 @@
+Extension Functions
+
+  basic ext function
+  nullable ext function
+  examples from ramko
+    http
+    response.handle
+
+ 
+
+  
+

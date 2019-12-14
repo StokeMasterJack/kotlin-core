@@ -1,0 +1,16 @@
+4 ways to create a function object:
+
+Callable reference
+Anonymous function expression
+
+Lambda expressions
+    last line is return
+    1 arg
+    2 arg
+    it
+    last arg of function
+
+Instantiate a Function type class
+
+
+callable reference

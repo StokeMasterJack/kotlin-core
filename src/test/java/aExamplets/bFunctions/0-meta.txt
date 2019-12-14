@@ -1,0 +1,4 @@
+one line functions
+type inference
+functions in functions
+
