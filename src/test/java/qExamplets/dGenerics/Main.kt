@@ -1,7 +1,7 @@
 package qExamplets.dGenerics
 
-import eConfigurator.Exp
-import eConfigurator.Lit
+import rConfigurator.Exp
+import rConfigurator.Lit
 
 fun main(args: Array<String>) {
     val a1: List<Lit> = listOf()

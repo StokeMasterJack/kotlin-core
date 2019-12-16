@@ -1,4 +1,4 @@
-package eConfigurator
+package rConfigurator
 
 fun mkCsp(action: CspBuilder.() -> Unit): Csp {
     val b = CspBuilder()

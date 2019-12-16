@@ -1,4 +1,4 @@
-package eConfigurator
+package rConfigurator
 
 class VarConflictException(val lit: Lit) : Exception() {
     override val message: String get() = "$lit"

@@ -1,4 +1,4 @@
-package eConfigurator
+package rConfigurator
 
 class ExpFactoryImpl : ExpFactory {
     override fun and() {

@@ -1,4 +1,4 @@
-package eConfigurator
+package rConfigurator
 
 fun main(args: Array<String>) {
 

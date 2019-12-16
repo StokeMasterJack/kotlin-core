@@ -1,4 +1,4 @@
-package qExamplets.fLambdasWithReceivers
+package nBuilders.aLambdasWithReceivers
 
 fun main(args: Array<String>) {
 

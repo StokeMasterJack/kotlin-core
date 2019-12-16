@@ -1,4 +1,4 @@
-package eConfigurator
+package rConfigurator
 
 /**
  * Contract for a Csp
