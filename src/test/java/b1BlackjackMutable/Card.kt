@@ -1,4 +1,4 @@
-package b1Blackjack
+package b1BlackjackMutable
 
 class Card(val value: Int, val suit: Int) {
 

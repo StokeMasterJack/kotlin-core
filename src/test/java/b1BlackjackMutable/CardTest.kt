@@ -1,4 +1,4 @@
-package b1Blackjack
+package b1BlackjackMutable
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.fail

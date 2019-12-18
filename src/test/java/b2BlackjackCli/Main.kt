@@ -1,7 +1,7 @@
 package b2BlackjackCli
 
-import b1Blackjack.Game
-import b1Blackjack.Hand
+import b1BlackjackMutable.Game
+import b1BlackjackMutable.Hand
 import jline.console.ConsoleReader
 
 fun main(args: Array<String>) {

@@ -1,4 +1,4 @@
-package b1Blackjack
+package b1BlackjackMutable
 
 class Hand(val name: String) {
 

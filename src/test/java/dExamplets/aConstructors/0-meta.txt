@@ -3,7 +3,7 @@ Constructors
   primary constructors
     impicit constructor keyword
     explicit constructor keyword
-    private keyword
+    private primary constructor
   init
   secondary constructors
     calling primary constructor
@@ -13,5 +13,14 @@ Constructors
     in declaration area
     in init
   using named args
+
+Factory functions:
+
+1. companion:
+    class Foo{
+    companion object{
+        fun fromRs(rs:Rs)
+    }
+
   
 

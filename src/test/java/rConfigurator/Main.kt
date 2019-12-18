@@ -1,7 +1,20 @@
 package rConfigurator
 
-fun main(args: Array<String>) {
+open class Vr() {
 
+    val name: String get() = this::class.simpleName!!
+    override fun toString(): String {
+        return name
+    }
+
+
+}
+
+object A : Vr()
+
+
+fun main(args: Array<String>) {
+    println(A)
     val csp = mkCsp {
 
         val a = +"a"

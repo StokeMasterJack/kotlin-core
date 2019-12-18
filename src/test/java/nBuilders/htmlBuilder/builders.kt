@@ -2,6 +2,9 @@
 
 package nBuilders.htmlBuilder
 
+@DslMarker
+annotation class DaveTagMarker
+
 typealias F<NB> = (NB.() -> Unit)?
 
 private fun <T> T.app(f: F<T>): T {
@@ -9,6 +12,7 @@ private fun <T> T.app(f: F<T>): T {
     return this
 }
 
+@DaveTagMarker
 sealed class NodeBuilder<N : Node> {
     abstract fun mk(): N
 }

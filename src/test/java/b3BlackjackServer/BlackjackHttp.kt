@@ -1,7 +1,7 @@
 package b3BlackjackServer
 
-import b1Blackjack.Game
-import b1Blackjack.Hand
+import b1BlackjackMutable.Game
+import b1BlackjackMutable.Hand
 import io.javalin.http.Context
 import kotlinx.html.*
 import kotlinx.html.stream.appendHTML
