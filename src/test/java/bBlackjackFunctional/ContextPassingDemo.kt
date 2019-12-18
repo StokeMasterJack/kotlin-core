@@ -55,6 +55,32 @@ class ContextPassingDemo {
 
     }
 
+    fun passContextUsingReceiverAndLabeledLambdas() {
+        Game().apply g@{
+            Deck().apply d@{
+                Hand(HandType.Player).apply h@{
+                    Card(0).apply c@{
+
+                        println(this@ContextPassingDemo.myVar)
+                        println(this@g.isGameActive)
+                        println(this@d.isShuffled)
+                        println(this@h.type)
+                        println(this@c.suitName)
+
+                        println(this@d.size)
+                        println(this@h.size)
+
+                        println(this@h.points)
+                        println(this@c.points)
+
+                    }
+                }
+            }
+        }
+
+    }
+
+
     fun passContextUsingArgIt() {
         Game().let {
             Deck().let {
@@ -98,6 +124,7 @@ class ContextPassingDemo {
 fun main(args: Array<String>) {
     ContextPassingDemo().apply {
         passContextUsingReceiver()
+        passContextUsingReceiverAndLabeledLambdas()
         passContextUsingArgIt()
         passContextUsingArgNamed()
     }

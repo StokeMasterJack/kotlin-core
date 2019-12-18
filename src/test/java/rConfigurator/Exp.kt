@@ -140,7 +140,6 @@ sealed class Lit : Simple() {
 
 sealed class Constant : Simple()
 
-
 class Var(val id: VarId) : Lit(), Comparable<Var> {
 
     val neg: NegVar by lazy {
